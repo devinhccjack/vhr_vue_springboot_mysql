@@ -1,12 +1,14 @@
-# testProjectDoc
-<<<<<<< Updated upstream
+### vhr-ecs部署测试
 
-前后端项目 
-=======
+## 前后端项目 
 a study project
-前后端项目
->>>>>>> Stashed changes
+## 项目名
 微人事
-技术栈
+## 技术栈
 springboot+vue+mysql
-111
+
+20220108
+iview-admin
+ecs测试~nginx配置代理
+
+
