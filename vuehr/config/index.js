@@ -12,27 +12,27 @@ module.exports = {
     assetsPublicPath: './',
     proxyTable: {
       '/': {
-         //target: 'http://localhost:8082',
-        //target: 'http://121.40.131.176:8082',
-        target: 'http://152.136.105.29:8082',
+        //  target: 'http://localhost:8082',
+        target: 'http://192.168.8.174:8082',
+        // target: 'http://152.136.105.29:8082',
         changeOrigin: true,
         pathRewrite: {
           '^/': ''
         }
       },
       '/ws/*': {
-         //: 'ws://127.0.0.1:8082',
-        //target: 'ws://121.40.131.176:8082',
-        target: 'ws://152.136.105.29:8082',
+        //  target: 'ws://127.0.0.1:8082',
+        target: 'ws://192.168.8.174:8082',
+        // target: 'ws://152.136.105.29:8082',
         ws: true
       }
     },
 
     // Various Dev Server settings
-     //host: 'localhost', // can be overwritten by process.env.HOST
-    //host: '121.40.131.176', // can be overwritten by process.env.HOST
-    host: '152.136.105.29', // can be overwritten by process.env.HOST
-    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    //  host: 'localhost', // can be overwritten by process.env.HOST
+    host: '192.168.8.174', // can be overwritten by process.env.HOST
+    // host: '152.136.105.29', // can be overwritten by process.env.HOST
+    port: 8088, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
